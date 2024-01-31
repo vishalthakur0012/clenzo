@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clenzo</title>
+
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--============= Icon Link========= -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="https://kit.fontawesome.com/348356cdb0.js" crossorigin="anonymous"></script>
+    <!--============= Icon Link========= -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+
+
+</head>
+
+<body>
+
+    <section class="topbar-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="topbar-right-area">
+                        <div class="mobile-flex">
+                            <div class="clock-area">
+                                <div class="clock-icon">
+                                    <i class="uil uil-clock"></i>
+                                </div>
+                                <div class="clock-content">
+                                    <p>8:00am - 10:00 pm</p>
+                                    <p>Mon - Sun</p>
+                                </div>
+                            </div>
+                            <div class="phone-area">
+                                <div class="phone-icon">
+                                    <i class="uil uil-phone"></i>
+                                </div>
+                                <div class="phone-content">
+                                    <p> <a href="tel:+611234567890">+61-800-123-4657</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quote-btn">
+                            <button type="button" class="form-btn"><i class="fa-regular fa-bell"></i> Get A Quote
+                                <span class="first-line"></span>
+                                <span class="second-line"></span>
+                                <span class="third-line"></span>
+                                <span class="fourth-line"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <header class="main-navbar navbar-area sticky">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <!-- Container wrapper -->
+            <div class="container">
+
+                <a class="navbar-brand mobile-logo" href="index.html">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
+                </button>
+
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto ">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item for-desktop">
+                            <a class="nav-link dropdown-toggle">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a href="services.html" class="nav-link">
+                                        Apartment Cleaning
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="services.html" class="nav-link">
+                                        Residence Cleaning
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="services.html" class="nav-link">
+                                        Commercial Cleaning
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="services.html" class="nav-link">
+                                        Move In / Move Out Cleaning
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- For mobile size dropdown -->
+
+                            <button class="dropdown-btn">
+                                <a>Services</a>
+                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                            </button>
+    
+                            <div class="dropdown-container">
+                                <li>
+                                    <a class="dropdown-item" href="services.html">Apartment Cleaning</a>
+                                </li>
+    
+                                <li>
+                                    <a class="dropdown-item" href="services.html">Residence Cleaning</a>
+                                </li>
+    
+                                <li>
+                                    <a class="dropdown-item" href="services.html">Commercial Cleaning</a>
+                                </li>
+    
+                                <li>
+                                    <a class="dropdown-item" href="services.html">Move In / Move Out Cleaning</a>
+                                </li>
+    
+                            </div>
+
+                        
+
+                        <!-- For mobile size dropdown -->
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+
+                <!-- Right elements -->
+                <div class=" social-icon-navbar">
+                    <!-- Icon -->
+                    <ul>
+                        <li>
+                            <a href=""><i class="uil uil-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="uil uil-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="uil uil-linkedin-alt"></i></a>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <!-- Right elements -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    </header>
+
+
+    <section class="breadcrumbs-area">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-start align-items-center h-100">
+                    <div class="text-white text-center">
+                        <h1 class="banner-title mb-3 ">About Our Company</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about-page-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="about-page-content">
+                        <h3 class="title">Who We Are</h3>
+                        <p class="mb-3">Lorem ipsum dolor sit amet consectetur. Sit sit dictum volutpat quam eget.
+                            Sit sit dictum volutpat quam eget</p>
+                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur. Sit sit dictum volutpat quam eget.
+                            Sit sit dictum volutpat quam eget</p>
+
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6 col-xl-6">
+                                <div class="about-page-box">
+                                    <div class="icon-img">
+                                        <img src="images/gif-img/cleaning.gif" alt="">
+                                    </div>
+                                    <div class="tf-about-choose-content">
+                                        <h4>Corporate Popular</h4>
+                                        <p>Lorem ipsum dolor sit amet ullapeuu. Interdum sit am</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6 col-xl-6">
+                                <div class="about-page-box">
+                                    <div class="icon-img">
+                                        <img src="images/gif-img/duster.gif" alt="">
+                                    </div>
+                                    <div class="tf-about-choose-content">
+                                        <h4>Corporate Popular</h4>
+                                        <p>Lorem ipsum dolor sit amet ullapeuu. Interdum sit am</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6 col-xl-6">
+                                <div class="about-page-box">
+                                    <div class="icon-img">
+                                        <img src="images/gif-img/mop.gif" alt="">
+                                    </div>
+                                    <div class="tf-about-choose-content">
+                                        <h4>Corporate Popular</h4>
+                                        <p>Lorem ipsum dolor sit amet ullapeuu. Interdum sit am</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6 col-xl-6">
+                                <div class="about-page-box">
+                                    <div class="icon-img">
+                                        <img src="images/gif-img/vacuum-cleaner.gif" alt="">
+                                    </div>
+                                    <div class="tf-about-choose-content">
+                                        <h4>Corporate Popular</h4>
+                                        <p>Lorem ipsum dolor sit amet ullapeuu. Interdum sit am</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="about-page-img-area">
+                        <img src="images/about-area/about-page-img.png" alt="">
+                        <div class="about-year-area">
+                            <span id="about-counter">0</span>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="certificate-img">
+                            <img src="images/about-area/cerification-about-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about-page-intro">
+        <div class="container">
+            <div class="section-heading">
+                <h3 class="title">Our Introduction</h3>
+                <p>Reason Why People Choose Us</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="intro-box">
+                        <div class="intro-img">
+                            <img src="images/icons/badge.png" alt="">
+                        </div>
+                        <div class="intro-content">
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur. Cursus cras congue tempor dolor. Libero accumsan
+                                sit </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="intro-box">
+                        <div class="intro-img">
+                            <img src="images/icons/cleaning-staff.png" alt="">
+                        </div>
+                        <div class="intro-content">
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur. Cursus cras congue tempor dolor. Libero accumsan
+                                sit </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="intro-box">
+                        <div class="intro-img">
+                            <img src="images/icons/satisfaction.png" alt="">
+                        </div>
+                        <div class="intro-content">
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur. Cursus cras congue tempor dolor. Libero accumsan
+                                sit </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="intro-box">
+                        <div class="intro-img">
+                            <img src="images/icons/investment.png" alt="">
+                        </div>
+                        <div class="intro-content">
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur. Cursus cras congue tempor dolor. Libero accumsan
+                                sit </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="work-process-area work-bg-about">
+        <div class="container">
+            <div class="section-heading">
+                <h3 class="title">Our Working Process</h3>
+            </div>
+            <div class="tf__work_text_area">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="process-box-1">
+                            <img src="images/work-process-img/img1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="process-box-2">
+                            <img src="images/work-process-img/img2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="process-box-3">
+                            <img src="images/work-process-img/img3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="process-box-4">
+                            <img src="images/work-process-img/img4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="our-goal-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="goal-content">
+                        <h3 class="title">Our Goals</h3>
+                        <h3 class="goal-heading">Lorem ipsum dolor sit amet consectetur Sit sit dictum volutpat quam
+                            eget.</h3>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur Sit sit dictum volutpat quam eget.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur Sit sit dictum volutpat quam eget.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur Sit sit dictum volutpat quam eget.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur Sit sit dictum volutpat quam eget.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="goal-img">
+                        <img src="images/about-area/goal-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <footer class="tf_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="tf_footer_details">
+                        <img src="images/logo.png" alt="">
+
+                        <p>Lorem ipsum dolor sit amet consectetur. Consequat neque adipiscing sit turpis nisi. Aliquam
+                            neque bibendum risus at. Venenatis nibh interdum ultrices orci.
+                        </p>
+                        <div class="social-icons-footer">
+                            <li><a href=""><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-youtube" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="tf_footer_links">
+                        <h3 class="footer-heading">Our Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="tf_footer_services">
+                        <h3 class="footer-heading">Our Services</h3>
+                        <ul>
+                            <li><a href="services.html">Apartment Cleaning</a></li>
+                            <li><a href="services.html">Residence Cleaning</a></li>
+                            <li><a href="services.html">Commercial Cleaning</a></li>
+                            <li><a href="services.html">Move In / Move Out Cleaning</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="tf_footer_location">
+                        <h3 class="footer-heading">Address</h3>
+                        <ul class="footer-contact-area">
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                                </span>
+                                <span class="footer-contact-area-text">Lorem ipsum dolor sit amet.</span>
+                            </li>
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                                </span>
+                                <span class="footer-contact-area-text">Phone No: <a href="tel:+6134567890"></a>
+                                    +61-1234567890 </span>
+                            </li>
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                                </span>
+                                <span class="footer-contact-area-text"><a href="mailto:info@clenzo.com.au">
+                                    info@clenzo.com.au</a></span>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <section class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tf_copyright">
+                        <p>Copyright © 2024 Clenzo | Design &amp; Development By <a target="_blank"
+                                href="https://eirmonsolutions.com.au/">Eirmon Solutions</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="back-to-top">
+        <div class="top" id="scrollToTop" style="display: block;">
+            <i class="fas fa-chevron-up" aria-hidden="true"></i><i class="fas fa-chevron-up" aria-hidden="true"></i>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="css/main.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        // Function to update the counter
+        function updateCounter() {
+            var counterElement = document.getElementById('about-counter');
+            var currentCount = parseInt(counterElement.innerText);
+
+            // Stop the counter when it reaches 10
+            if (currentCount < 10) {
+                // Increment the counter by 1
+                counterElement.innerText = currentCount + 1;
+            } else {
+                // Stop the counter when it reaches 10
+                clearInterval(timerId);
+            }
+        }
+
+        // Update the counter every second (1000 milliseconds)
+        var timerId = setInterval(updateCounter, 1000);
+    </script>
+
+    <script>
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+
+</body>
+
+</html>
